@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- ============================================================== -->
+        <!-- Main wrapper - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <div id="main-wrapper">
+            <!-- ============================================================== -->
+            <!-- Top header  -->
+            <!-- ============================================================== -->
+            <!-- Start Navigation -->
+			<div class="header header-light head-shadow">
+				<div class="container">
+					<nav id="navigation" class="navigation navigation-landscape">
+						<div class="nav-header">
+							<a class="nav-brand" href="#">
+								<img src="assets/img/logo1.png" class="logo" alt="" />
+							</a>
+							<div class="nav-toggle"></div>
+						</div>
+						<div class="nav-menus-wrapper">
+							<ul class="nav-menu">
+							
+								<li class=""><a href="index.html">Home<span class="submenu-indicator"></span></a>
+								</li>
+
+								<li class="active"><a href="Course.html">Courses<span class="submenu-indicator"></span></a>
+								</li>
+
+								<li class=""><a href="phonics.html">Phonices<span class="submenu-indicator"></span></a>
+								</li>
+
+								<li><a href="#">Academy<span class="submenu-indicator"></span></a>
+									<ul class="nav-dropdown nav-submenu">
+										<li><a href="about.html">About</a></li>
+										<li><a href="contact.html">Contact</a></li>
+										<li><a href="faq.html">FAQ</a></li>
+									</ul>
+								</li>
+								
+							</ul>
+							
+							<ul class="nav-menu nav-menu-social align-to-right">
+								<li class="add-listing theme-bg">
+									<a href="signup.html" class="text-white">Get Started</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<!-- End Navigation -->
+			<div class="clearfix"></div>
+			<!-- ============================================================== -->
+			<!-- Top header  -->
+			<!-- ============================================================== -->
+
+            <div class = "container">
+                <div class = "row">
+                    <div class = "col text-center my-4">
+                        <h1 class = "fs-2">Trending Item</h1>
+                        <div class = "underline mx-auto mt-3"></div>
+                    </div>
+                </div>
+
+                <div class = "row mt-3 mb-4 button-group filter-button-group">
+                    <div class = "col d-flex justify-content-center">
+                        <button type = "button" data-filter = "*" class = "btn btn-primary mx-1 text-dark">All</button>
+                        <button type = "button" data-filter = ".IT" class = "btn btn-primary mx-1 text-dark">IT</button>
+                        <button type = "button" data-filter = ".Personality" class = "btn btn-primary mx-1 text-dark">Personality</button>
+                        <button type = "button" data-filter = ".Act" class = "btn btn-primary mx-1 text-dark">Activities</button>
+                        <button type = "button" data-filter = ".Banking" class = "btn btn-primary mx-1 text-dark">Banking Exams</button>
+                    </div>
+                </div>
+
+                <div class = "row justify-content-center g-4" id = "product-list">
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/Python.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Programming</span>
+                                    <span class = "est st_2">Advanced</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Python</h4>
+                                    <span class="crs_auth">Advanced Level Python Programing</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>100k Users</span></li>
+                                            <li><i class="fa fa-eye"></i><span>20 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">40%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="Python.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 Personality">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/English.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Personality</span>
+                                    <span class = "est st_2">Skill</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">English</h4>
+                                    <span class="crs_auth">Dipelomo in English</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>250k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>13 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">35%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="course-detail.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/MERN.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">MERN</span>
+                                    <span class = "est st_2">Skill</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">MERN Stack</h4>
+                                    <span class="crs_auth">MangoDB,Express or Next js,React,Node Development Course</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>123k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>30 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">25%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="MERN.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/Fullstack.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Fullstack</span>
+                                    <span class = "est st_2">Technologies</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Fullstack web developmennt</h4>
+                                    <span class="crs_auth">Fully Interactive and Responsive developement</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>52k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>13 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">35%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="Fullstack.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/Application development.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">App</span>
+                                    <span class = "est st_2">IT</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Application Development</h4>
+                                    <span class="crs_auth">App Development in different Platform</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>76k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>12 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">15%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="app.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 Personality">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/TOFEL.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">product name</span>
+                                    <span class = "est st_2">$ 68.00</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Full web designing course with 20 web template designing</h4>
+                                    <span class="crs_auth"><i>By</i> Adam Wilson</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-video"></i><span>24 Videos</span></li>
+                                            <li><i class="fa fa-user"></i><span>10k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>92k Views</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">$</span><span class="theme-cl">129</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="course-detail.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/MEAN.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">MEAN</span>
+                                    <span class = "est st_2">Software</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">MEAN Course</h4>
+                                    <span class="crs_auth">MangoDB,Express JS,Angular JS,Node JS</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>43k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>20 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">25%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="MEAN.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/UI_UX design.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">UI/UX</span>
+                                    <span class = "est st_2">Design</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Design course</h4>
+                                    <span class="crs_auth">Non Coding IT Placement course</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>82k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>52 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">60%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="UIUX.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 Personality">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/IELTS.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">product name</span>
+                                    <span class = "est st_2">$ 68.00</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Full web designing course with 20 web template designing</h4>
+                                    <span class="crs_auth"><i>By</i> Adam Wilson</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-video"></i><span>24 Videos</span></li>
+                                            <li><i class="fa fa-user"></i><span>10k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>92k Views</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">$</span><span class="theme-cl">129</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="course-detail.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/Java.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Programing</span>
+                                    <span class = "est st_2">Skills</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Java Programing</h4>
+                                    <span class="crs_auth">Learn Java language from the scratche</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>73k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>23 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">55%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="Java.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/Cybersecurity.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Cybersecurity</span>
+                                    <span class = "est st_2">Security</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Cybersecurity Speciliest</h4>
+                                    <span class="crs_auth">Network production Security Speciliest IT</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>109k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>15 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">10%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="cyber.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/DEVOPS.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">DEvOps</span>
+                                    <span class = "est st_2">Serice</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Software service</h4>
+                                    <span class="crs_auth">Demanded Software service Skills</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>30k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>12 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">30%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="Devops.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 Personality">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/Phonices.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">product name</span>
+                                    <span class = "est st_2">$ 68.00</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Full web designing course with 20 web template designing</h4>
+                                    <span class="crs_auth"><i>By</i> Adam Wilson</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-video"></i><span>24 Videos</span></li>
+                                            <li><i class="fa fa-user"></i><span>10k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>92k Views</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">$</span><span class="theme-cl">129</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="course-detail.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/Graphics.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Design</span>
+                                    <span class = "est st_2">Graphic</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Graphic design course</h4>
+                                    <span class="crs_auth">High demanded IT design skills </span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>50k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>13 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">20%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="Graphic.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/Cloud.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Cloud</span>
+                                    <span class = "est st_2">Service</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Cloud Engineer course</h4>
+                                    <span class="crs_auth">Cloud development and service on IT</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>65k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>24 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">45%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="Cloud.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 IT">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/UI_UX development.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Webdevelopment</span>
+                                    <span class = "est st_2">Advanced</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Webdevelopment course</h4>
+                                    <span class="crs_auth">Html Advanced,Css Advanced,Js</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>283k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>24 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">75%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="Webdevelopment.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 Banking">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/GOV Banking.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Banking</span>
+                                    <span class = "est st_2">Skill</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">GOV Bank</h4>
+                                    <span class="crs_auth">GOV Bank Competative exam training</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>80k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>43 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">38%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="course-detail.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 Banking">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/GOV Banking (2).png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Banking</span>
+                                    <span class = "est st_2">Privte</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Private Bank</h4>
+                                    <span class="crs_auth">Private Bank competative exam training</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>60k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>16 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">73%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="course-detail.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 Act">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/key.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Add on</span>
+                                    <span class = "est st_2">Skills</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Keyboard</h4>
+                                    <span class="crs_auth">Play your music from your beates</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>10k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>19 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">60%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="course-detail.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 Act">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/Drumes.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Add on</span>
+                                    <span class = "est st_2">Skill</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Drumes</h4>
+                                    <span class="crs_auth">Make learing the beat today</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>40k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>14 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">63%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="course-detail.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 Act">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/art.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">Drawing</span>
+                                    <span class = "est st_2">Skill</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Art Course</h4>
+                                    <span class="crs_auth">Make your dream true</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>140k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>18 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">43%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="course-detail.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-12 col-sm-12 Act">
+                        <div class = "crs_grid_list">
+                            <div class = "crs_grid_list_thumb">
+                                <img src = "/assets/img/course/Hand.png" class = "img-fluid rounded">
+                            </div>
+                            <div class = "crs_grid_list_caption">
+                                <div class="crs_lt_101">
+                                    <span class = "est st_1">writing</span>
+                                    <span class = "est st_2">Skill</span>
+                                </div>
+                                <div class="crs_lt_102">
+                                    <h4 class="crs_tit">Handrighting Course</h4>
+                                    <span class="crs_auth">Unscale your letters to be better</span>
+                                </div>
+                                <div class="crs_lt_103">
+                                    <div class="crs_info_detail">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i><span>130k User</span></li>
+                                            <li><i class="fa fa-eye"></i><span>40 Tuters</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="crs_flex">
+                                    <div class="crs_fl_first">
+                                        <div class="crs_price"><h2><span class="currency">38%</span><span class="theme-cl">Off</span></h2></div>
+                                    </div>
+                                    <div class="crs_fl_last">
+                                        <div class="crs_linkview"><a href="course-detail.html" class="btn btn_view_detail theme-bg text-light">Enroll Now</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <!-- All Jquery -->
+		<!-- ============================================================== -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/select2.min.js"></script>
+		<script src="assets/js/slick.js"></script>
+		<script src="assets/js/moment.min.js"></script>
+		<script src="assets/js/daterangepicker.js"></script> 
+		<script src="assets/js/summernote.min.js"></script>
+		<script src="assets/js/metisMenu.min.js"></script>	
+		<script src="assets/js/custom.js"></script>
+
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- isotope plugin -->
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+        <script src = "assets/js/productList.js"></script>
+</body>
+</html>
